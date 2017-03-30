@@ -3,10 +3,8 @@ pipeline {
     stages {
         stage('build') {
             steps {
-       		node {       
-			sh "java -version"
-		}
-            }
+               echo 'ter'
+	    }
         }
     }
 }
